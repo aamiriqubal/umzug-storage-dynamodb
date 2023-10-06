@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: ${{ env.node_version }}
           registry-url: https://registry.npmjs.org
-          scope: '@byu-oit'
+          scope: '@aamiriqubal'
 
       - name: Publish
         run: npm publish --access public
